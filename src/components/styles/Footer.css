@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    padding: 20px 50px; /* Espaciado alrededor del contenido */
+    background-color: #00254d; /* Color de fondo */
+    color: white; /* Color del texto */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+  }
+  
+  .footer-text {
+    text-align: center; /* Centra el texto dentro del footer */
+  }
+  
+  .footer-text p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+    font-size: 16px; /* Tamaño de la fuente */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    transition: color 0.3s ease; /* Efecto de transición para el color */
+  }
+  
+  .footer:hover .footer-text p {
+    color: #ffcc00; /* Cambia el color del texto al pasar el mouse */
+  }
+  

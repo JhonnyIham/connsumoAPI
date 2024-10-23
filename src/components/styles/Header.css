@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #00254d;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-container:first-child {
+    justify-content: flex-start;
+  }
+  
+  .logo-container:last-child {
+    justify-content: flex-end;
+  }
+  
+  .logo {
+    max-width: 100px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .header-text {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .header-text h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .header-text h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: #a8c5e6;
+  }
+  
+  .header-text h1, .header-text h2 {
+    transition: color 0.3s ease;
+  }
+  
+  .header:hover h1, .header:hover h2 {
+    color: #ffcc00;
+  }
+  

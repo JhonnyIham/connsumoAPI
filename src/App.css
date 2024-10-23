@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;  /* Elimina márgenes predeterminados */
+  padding: 0; /* Elimina rellenos predeterminados */
+  box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total */
+}
+
+html {
+  font-family: "Roboto", sans-serif; /* Define la fuente */
+}
+
+body {
+  display: flex; /* Establece el contenedor como flex */
+  flex-direction: column; /* Orienta los hijos en una columna */
+  overflow-x: hidden; /* Previene el desbordamiento horizontal */
+}
+
+body {
+  background-image: url('/assets/backgrounds/01d.png'); /* Fondo de la aplicación */
+  background-size: cover; /* Asegura que el fondo cubra todo el área */
+  background-position: center; /* Centra la imagen de fondo */
+  color: rgb(8, 23, 85); /* Color del texto */
+  background-color: rgba(90, 74, 74, 0.973); /* Color de fondo con transparencia */
+}
+
+img {
+  max-width: 100%; /* Limita el ancho de las imágenes al 100% */
+  height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.loading {
+  width: 200px; /* Ancho de la imagen de carga */
+  height: 200px; /* Alto de la imagen de carga */
+}
+
+button {
+  cursor: pointer; /* Cambia el cursor al pasar sobre un botón */
+  display: inline-block; /* Permite personalizar el botón */
+  border: none; /* Elimina el borde predeterminado */
+  font-family: inherit; /* Hereda la fuente del contenedor padre */
+}
+
+ul {
+  list-style: none; /* Elimina los puntos de las listas */
+}
+
+.app {
+  background-image: url('/assets/backgrounds/01d.png'); /* Fondo de la sección principal */
+  background-size: cover; /* Asegura que el fondo cubra todo el área */
+  background-position: center; /* Centra la imagen de fondo */
+  min-height: 100vh; /* Asegura que la sección principal tenga al menos la altura de la ventana */
+  display: flex; /* Establece el contenedor como flex */
+  justify-content: center; /* Centra horizontalmente los elementos hijos */
+  align-items: center; /* Centra verticalmente los elementos hijos */
+  overflow: hidden; /* Previene el scroll */
+}
